@@ -44,7 +44,7 @@
 					<div class="form-group">
 						<input class="form-control" type="password" placeholder="ÃÜÂë" required="required" name="tpassword"/>
 					</div>
-					<button class="btn btn-lg" onclick="logint()">µÇÂ¼</button>
+					<button class="btn btn-lg" >µÇÂ¼</button>
 				</form>
 			</div>
 			<button class="btn btn-back js-btn" data-target="welcome"><i class="fas fa-angle-left"></i></button>
@@ -56,12 +56,12 @@
 
 				<form  action="LoginSServlet" method="post" >
 					<div class="form-group">
-						<input class="form-control" type="email" placeholder="Ãû³Æ" required="required"/>
+						<input class="form-control" name="susername" type="text" placeholder="Ãû³Æ" required="required"/>
 					</div>
 					<div class="form-group">
-						<input class="form-control" type="password" placeholder="ÃÜÂë" required="required"/>
+						<input class="form-control" name="spassword" type="password" placeholder="ÃÜÂë" required="required"/>
 					</div>
-					<button class="btn btn-lg" onclick="logins()">µÇÂ¼</button>
+					<button class="btn btn-lg" >µÇÂ¼</button>
 				</form>
 			</div>
 			<button class="btn btn-back js-btn" data-target="welcome"><i class="fas fa-angle-left"></i></button>
@@ -72,30 +72,6 @@
 </div>
   
 <script src="js/index.js"></script>
-<script>
-	function logint() {
-		var value="<%=request.getParameter("logintresult")%>";
-		alert('µÇÂ½³É¹¦£¡');
-
-		if(value=="yes"){
-			window.location.href="teacher.jsp";
-		}else{
-			window.location.href="teacher.jsp";
-		}
-
-	}
-	function logins() {
-		var value="<%=request.getParameter("loginsresult")%>";
-		alert('µÇÂ½³É¹¦£¡');
-		window.location.href="student.jsp";
-		if(value=="yes"){
-			window.location.href="student.jsp";
-		}else{
-			window.location.href="student.jsp";
-		}
-
-	}
-</script>
 	
 </body>
 </html>

@@ -1,7 +1,9 @@
 package myjava.servlets;
 
 import myjava.JdbcUtil;
+import myjava.tables.Student;
 import myjava.tables.Submit;
+import myjava.tables.Teacher;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -65,4 +67,27 @@ public class SubmitD {
         return list;
 
     }
+    //查找
+    public List<Submit> search(String hname){
+        List<Submit> submits = new ArrayList<Submit>();
+        try {
+            Connection conn = JdbcUtil.getConnection();
+            PreparedStatement pstmt = conn.prepareStatement("select * from submit where hname = ?");
+            pstmt.setString(1,hname);
+            ResultSet rs = pstmt.executeQuery();
+
+            while(rs.next()) {
+                Submit ss=new Submit(rs.getString(1),rs.getString(2),rs.getString(3));
+                submits.add(ss);
+            }
+
+            JdbcUtil.close(pstmt, conn);
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+
+        }
+        return submits;
+    }
+
 }

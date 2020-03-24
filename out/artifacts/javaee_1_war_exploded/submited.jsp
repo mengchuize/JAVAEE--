@@ -10,6 +10,8 @@
 <%@ page import="myjava.servlets.HomeworkD" %>
 <%@ page import="myjava.tables.Homework" %>
 <%@ page import="java.util.List" %>
+<%@ page import="myjava.servlets.SubmitD" %>
+<%@ page import="myjava.tables.Submit" %>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -37,14 +39,27 @@
             <div class="p-section p-section--05 js-fullscreen-section">
                 <div class="p-section__in" >
 
-                    <h2 class="p-section__header">提交作业</h2>
-                    <p>作业名称:javaee1</p>
-                    <form role="form">
-                        <div class="form-group">
-                            <label>作业内容</label>
-                            <textarea class="form-control" rows="3"></textarea>
-                        </div>
-                    </form>
+                    <h2 class="p-section__header">作业</h2>
+
+                    <table class="table table-condensed p-section__text" style="font-size: 30px">
+                        <tr>
+                            <td>提交学生</td>
+                            <td>课程名称</td>
+                            <td>提交内容</td>
+                        </tr>
+                        <%
+                            SubmitD dao=new SubmitD();
+                            List<Submit> list =dao.search(request.getParameter("hname"));
+                            for(Submit tl:list)
+                            {%>
+                        <tr>
+                            <td><%=tl.getSname() %></td>
+                            <td><%=tl.getHname() %></td>
+                            <td><%=tl.getShis()%>></td>
+                        </tr>
+                        <%}
+                        %>
+                    </table>
 
                 </div>
             </div>

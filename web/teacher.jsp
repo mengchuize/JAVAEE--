@@ -39,7 +39,7 @@
                 <div class="p-section__in" >
 
                     <h2 class="p-section__header">作业</h2>
-                    <button class="btn btn-success p-section__text" onclick="adds()" style="margin-left: 0">新建作业</button>
+                    <button class="btn btn-success p-section__text" onclick="addh()" style="margin-left: 0">新建作业</button>
                     <table class="table table-condensed p-section__text" style="font-size: 30px">
                                <tr>
                                   <td>名称</td>
@@ -60,7 +60,7 @@
                                        <td><%=tl.getHendtime() %>></td>
                                        <td><%=tl.getTname() %></td>
                                        <td><%=tl.getHsubmitnum() %></td>
-                                       <td><a href="index.jsp">查看</a>></td>
+                                       <td><a href="submited.jsp?hname=<%=tl.getHname()%>">查看</a>></td>
                                    </tr>
                                      <%}
                                %>
@@ -111,17 +111,14 @@
 
 <script src="js/main.min.js" async></script>
 <script>
+    function addh() {
+        window.location.href="addhomework.jsp?tname=<%=request.getParameter("tname")%>";
+    }
     function adds() {
-        window.location.href="addstu.jsp";
+        window.location.href="addstudent.jsp";
     }
     function deletes(i){
 
-        <%
-          StudentD ds=new StudentD();
-          List<Student> lists =ds.findAll();
-          Student ts= new Student(lists.get(0).getSname(),lists.get(0).getSusername(),lists.get(0).getSpassword());
-          ds.delete(ts);
-          %>
         alert("删除成功！");
     }
 </script>

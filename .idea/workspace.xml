@@ -6,7 +6,38 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94fd2879-644c-4628-a119-a81f992d1d4f" name="Default Changelist" comment="" />
+    <list default="true" id="94fd2879-644c-4628-a119-a81f992d1d4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myjava/servlets/HomeworkServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myjava/servlets/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/addhomework.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/addstudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/WEB-INF/classes/myjava/servlets/LoginSServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/WEB-INF/classes/myjava/servlets/LoginSServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/WEB-INF/classes/myjava/servlets/LoginTServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/WEB-INF/classes/myjava/servlets/LoginTServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/WEB-INF/classes/myjava/servlets/StudentD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/WEB-INF/classes/myjava/servlets/StudentD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/WEB-INF/classes/myjava/servlets/SubmitD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/WEB-INF/classes/myjava/servlets/SubmitD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/WEB-INF/classes/myjava/servlets/TeacherD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/WEB-INF/classes/myjava/servlets/TeacherD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/student.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/submit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/submit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/teacher.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaee_1_war_exploded/teacher.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaee_1/myjava/servlets/LoginSServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaee_1/myjava/servlets/LoginSServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaee_1/myjava/servlets/LoginTServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaee_1/myjava/servlets/LoginTServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaee_1/myjava/servlets/StudentD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaee_1/myjava/servlets/StudentD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaee_1/myjava/servlets/SubmitD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaee_1/myjava/servlets/SubmitD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaee_1/myjava/servlets/TeacherD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaee_1/myjava/servlets/TeacherD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myjava/servlets/LoginSServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myjava/servlets/LoginSServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myjava/servlets/LoginTServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myjava/servlets/LoginTServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myjava/servlets/StudentD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myjava/servlets/StudentD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myjava/servlets/SubmitD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myjava/servlets/SubmitD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myjava/servlets/TeacherD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myjava/servlets/TeacherD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/newhomework.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/student.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/submit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/submit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/teacher.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/teacher.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,10 +60,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -49,6 +83,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/css" />
@@ -57,18 +92,18 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IDEAProject\javaee_1\web\WEB-INF\lib" />
-      <recent name="E:\IDEAProject\javaee_1\web" />
-      <recent name="E:\IDEAProject\javaee_1\web\css" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="myjava.servlets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IDEAProject\javaee_1\web\css" />
       <recent name="E:\IDEAProject\javaee_1\web\js" />
       <recent name="E:\IDEAProject\javaee_1\web" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="myjava.servlets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEAProject\javaee_1\web" />
+      <recent name="E:\IDEAProject\javaee_1\web\WEB-INF\lib" />
+      <recent name="E:\IDEAProject\javaee_1\web\css" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.202">
@@ -234,6 +269,9 @@
       <workItem from="1583980460332" duration="14947000" />
       <workItem from="1584063839960" duration="1451000" />
       <workItem from="1584067199656" duration="19397000" />
+      <workItem from="1584758816920" duration="6056000" />
+      <workItem from="1584968895176" duration="10193000" />
+      <workItem from="1585037958654" duration="2425000" />
     </task>
     <servers />
   </component>
@@ -261,61 +299,61 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="557" y="196" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583917134107" />
-    <state width="1024" height="151" key="GridCell.Tab.0.bottom" timestamp="1584098873134">
+    <state width="1024" height="282" key="GridCell.Tab.0.bottom" timestamp="1585040424402">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="151" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584098873134" />
-    <state width="1024" height="151" key="GridCell.Tab.0.center" timestamp="1584098873134">
+    <state width="1024" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585040424402" />
+    <state width="1024" height="282" key="GridCell.Tab.0.center" timestamp="1585040424400">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="151" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584098873134" />
-    <state width="1024" height="151" key="GridCell.Tab.0.left" timestamp="1584098873134">
+    <state width="1024" height="282" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585040424400" />
+    <state width="1024" height="282" key="GridCell.Tab.0.left" timestamp="1585040424400">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="151" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584098873134" />
-    <state width="1024" height="151" key="GridCell.Tab.0.right" timestamp="1584098873134">
+    <state width="1024" height="282" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585040424400" />
+    <state width="1024" height="282" key="GridCell.Tab.0.right" timestamp="1585040424401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="151" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584098873134" />
-    <state width="1024" height="151" key="GridCell.Tab.1.bottom" timestamp="1584098873134">
+    <state width="1024" height="282" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585040424401" />
+    <state width="1024" height="282" key="GridCell.Tab.1.bottom" timestamp="1585040424406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="151" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584098873134" />
-    <state width="1024" height="151" key="GridCell.Tab.1.center" timestamp="1584098873134">
+    <state width="1024" height="282" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585040424406" />
+    <state width="1024" height="282" key="GridCell.Tab.1.center" timestamp="1585040424405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="151" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584098873134" />
-    <state width="1024" height="151" key="GridCell.Tab.1.left" timestamp="1584098873134">
+    <state width="1024" height="282" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585040424405" />
+    <state width="1024" height="282" key="GridCell.Tab.1.left" timestamp="1585040424402">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="151" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584098873134" />
-    <state width="1024" height="151" key="GridCell.Tab.1.right" timestamp="1584098873134">
+    <state width="1024" height="282" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585040424402" />
+    <state width="1024" height="282" key="GridCell.Tab.1.right" timestamp="1585040424405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="151" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584098873134" />
-    <state width="1024" height="151" key="GridCell.Tab.2.bottom" timestamp="1584098873135">
+    <state width="1024" height="282" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585040424405" />
+    <state width="1024" height="282" key="GridCell.Tab.2.bottom" timestamp="1585040424407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="151" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584098873135" />
-    <state width="1024" height="151" key="GridCell.Tab.2.center" timestamp="1584098873135">
+    <state width="1024" height="282" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585040424407" />
+    <state width="1024" height="282" key="GridCell.Tab.2.center" timestamp="1585040424406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="151" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1584098873135" />
-    <state width="1024" height="151" key="GridCell.Tab.2.left" timestamp="1584098873135">
+    <state width="1024" height="282" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1585040424406" />
+    <state width="1024" height="282" key="GridCell.Tab.2.left" timestamp="1585040424406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="151" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1584098873135" />
-    <state width="1024" height="151" key="GridCell.Tab.2.right" timestamp="1584098873135">
+    <state width="1024" height="282" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1585040424406" />
+    <state width="1024" height="282" key="GridCell.Tab.2.right" timestamp="1585040424406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="151" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1584098873135" />
+    <state width="1024" height="282" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1585040424406" />
     <state x="210" y="0" key="SettingsEditor" timestamp="1583917167893">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="210" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583917167893" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1584067237835">
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1585037973791">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584067237835" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585037973791" />
   </component>
 </project>

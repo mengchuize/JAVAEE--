@@ -21,19 +21,22 @@ public class LoginTServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("LoginServlet...doPost...");
         request.setCharacterEncoding("UTF-8");
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
+        String username = request.getParameter("tusername");
+        String password = request.getParameter("tpassword");
         TeacherD td=new TeacherD();
         Teacher t=td.search(username);
-        if(t.getTpassword()==password){
+        System.out.println(username+"$search$"+t.getTpassword());
+        System.out.println(username+"$get$"+password);
+        System.out.println("t.getTpassword().equals(password):"+t.getTpassword().equals(password));
+        if(t.getTpassword().equals(password)){
             System.out.println("yes");
-            request.setAttribute( "logintresult ","yes");
+            request.setAttribute( "tusername ",username);
+            request.getRequestDispatcher( "/teacher.jsp?tname="+username).forward(request,response);
         }else{
             System.out.println("no");
-            request.setAttribute( "logintresult ","no");
+            request.getRequestDispatcher( "/failed.jsp").forward(request,response);
         }
-        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"+request.getParameter("logintresult"));
-        request.getRequestDispatcher( "index.jsp").forward(request,response);
+
     }
 
 }

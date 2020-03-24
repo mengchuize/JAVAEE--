@@ -38,6 +38,7 @@
                 <div class="p-section__in" >
 
                     <h2 class="p-section__header">作业</h2>
+
                     <table class="table table-condensed p-section__text" style="font-size: 30px">
                         <tr>
                             <td>名称</td>
@@ -58,7 +59,7 @@
                             <td><%=tl.getHendtime() %>></td>
                             <td><%=tl.getTname() %></td>
                             <td><%=tl.getHsubmitnum() %></td>
-                            <td><a href="index.jsp">提交</a>></td>
+                            <td><a href="submit.jsp?hname=<%=tl.getHname()%>&sname=<%=request.getParameter("susername")%>">提交</a>></td>
                         </tr>
                         <%}
                         %>

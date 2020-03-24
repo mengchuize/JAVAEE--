@@ -71,12 +71,15 @@ public class StudentD {
         Student students = new Student();
         try {
             Connection conn = JdbcUtil.getConnection();
-            PreparedStatement pstmt = conn.prepareStatement("select susername,spasssword from student where sname = ?");
+            PreparedStatement pstmt = conn.prepareStatement("select * from student where sname = ?");
             pstmt.setString(1,susername);
             ResultSet rs = pstmt.executeQuery();
 
-            students.setSusername(rs.getString(1));
-            students.setSpassword(rs.getString(2));
+            while(rs.next()) {
+                students.setSname(rs.getString(1));
+                students.setSusername(rs.getString(2));
+                students.setSpassword(rs.getString(3));
+            }
 
             JdbcUtil.close(pstmt, conn);
 

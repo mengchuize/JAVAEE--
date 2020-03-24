@@ -79,6 +79,7 @@ public class TeacherD {
                 teachers.setTusername(rs.getString(2));
                 teachers.setTpassword(rs.getString(3));
             }
+            System.out.println("search:"+teachers.getTpassword());
             JdbcUtil.close(pstmt, conn);
 
         } catch (SQLException e) {
